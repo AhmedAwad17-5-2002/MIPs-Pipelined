@@ -1,0 +1,5 @@
+vlib work
+vlog *.v
+vlog *.sv
+vsim -voptargs=+acc work.MIPS_Pipeline_TB
+run -all
